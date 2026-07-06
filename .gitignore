@@ -28,10 +28,13 @@ ENV/
 env.bak/
 venv.bak/
 
-# Environment Variables
+# Environment Variables - CRITICAL: Never commit API keys or credentials
 .env
 .env.local
 .env.*.local
+backend/.env
+frontend/.env
+**/.env
 
 # IDEs
 .vscode/
@@ -85,10 +88,14 @@ Thumbs.db
 # Project specific
 *.md.backup
 test_*.py
+test_*.js
 quick_*.py
 simple_*.py
 single_*.py
 START_SERVERS.bat
+STOP_SERVERS.bat
+test_commodity_disclaimer.py
+test_gold.py
 
 # Documentation (keep only main ones)
 ACTIONABLE_FIXES.md
