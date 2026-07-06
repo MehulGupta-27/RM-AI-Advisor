@@ -1,0 +1,117 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp
+.pnp.js
+
+# Frontend Build
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Project specific
+*.md.backup
+test_*.py
+quick_*.py
+simple_*.py
+single_*.py
+START_SERVERS.bat
+
+# Documentation (keep only main ones)
+ACTIONABLE_FIXES.md
+COMPLETE_STATUS.md
+COMPREHENSIVE_FIX_COMPLETE.md
+CORS_FIX_COMPLETE.md
+CURRENT_*.md
+DEMO_QUERIES*.md
+DIAGNOSTIC_REPORT.md
+DYNAMIC_QUERY_FIXES_COMPLETE.md
+ENV_RENAME_COMPLETE.md
+FINAL_*.md
+IMPLEMENTATION_PROGRESS.md
+INVESTMENT_*.md
+LANGCHAIN_MIGRATION_COMPLETE.md
+PHASE*.md
+PROJECT_COMPLETE.md
+PROJECT_STATUS.md
+QUALITY_FIX_SUMMARY.md
+QUICKSTART.md
+RESPONSE_FORMAT_FIX.md
+SESSION_*.md
+SETUP_STATUS.md
+STOCK_ANALYSIS_FIX.md
+TESTING_COMPLETE.md
+TEST_RESULTS_SUMMARY.md
