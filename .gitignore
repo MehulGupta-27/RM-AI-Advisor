@@ -96,6 +96,8 @@ START_SERVERS.bat
 STOP_SERVERS.bat
 test_commodity_disclaimer.py
 test_gold.py
+test_rds_connection.py
+create_missing_tables.py
 
 # Documentation (keep only main ones)
 ACTIONABLE_FIXES.md
